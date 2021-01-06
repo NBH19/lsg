@@ -1,0 +1,186 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Question page
+{% endblock %}
+
+{% block beforeContent %}
+
+{% endblock %}
+
+{% block content %}
+<div class="govuk-width-container">
+ <a href="/homepage" class="govuk-back-link">Back</a>
+
+ <main class="govuk-main-wrapper">
+
+   <div class="govuk-grid-row">
+     <div class="govuk-grid-column-two-thirds">
+
+
+      <h1 class="govuk-heading-xl">
+        All available courses
+      </h1>
+
+      <p>All courses are listed in the table below.</p>
+
+
+              <table class="govuk-table">
+
+    <thead class="govuk-table__head">
+      <tr class="govuk-table__row">
+        <th scope="col" class="govuk-table__header app-custom-class">Course name</th>
+        <th scope="col" class="govuk-table__header app-custom-class">Course code</th>
+        <th scope="col" class="govuk-table__header app-custom-class">Length of course</th>
+        <th scope="col" class="govuk-table__header app-custom-class">Location of teaching</th>
+        <th scope="col" class="govuk-table__header app-custom-class">Application deadline</th>
+        <th scope="col" class="govuk-table__header app-custom-class">Link to apply</th>
+      </tr>
+    </thead>
+    <tbody class="govuk-table__body">
+      <tr class="govuk-table__row">
+        <td class="govuk-table__cell">Accounting and Finance</td>
+        <td class="govuk-table__cell">042355 </td>
+        <td class="govuk-table__cell">12 months</td>
+        <td class="govuk-table__cell">Online</td>
+        <td class="govuk-table__cell">10/01/21</td>
+        <td class="govuk-table__cell"<form class="form" action="/application-form" method="post">
+
+          <button class="govuk-button" data-module="govuk-button">Apply</button>
+
+        </form></td>
+      </tr>
+      <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Business Skills 1</td>
+      <td class="govuk-table__cell">093200</td>
+      <td class="govuk-table__cell">6 months</td>
+      <td class="govuk-table__cell">Online</td>
+      <td class="govuk-table__cell">15/01/21</td>
+      <td class="govuk-table__cell"> <form class="form" action="/application-form" method="post">
+
+        <button class="govuk-button" data-module="govuk-button">Apply</button>
+
+      </form> </td>
+      </tr>
+      <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Business Skills 2</td>
+      <td class="govuk-table__cell">021068</td>
+      <td class="govuk-table__cell">6 months</td>
+      <td class="govuk-table__cell">Online</td>
+      <td class="govuk-table__cell">15/01/21</td>
+      <td class="govuk-table__cell"><form class="form" action="/application-form" method="post">
+
+        <button class="govuk-button" data-module="govuk-button">Apply</button>
+
+      </form></td>
+      </tr>
+      <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Catering and Hospitality</td>
+      <td class="govuk-table__cell">162504</td>
+      <td class="govuk-table__cell">12 months</td>
+      <td class="govuk-table__cell">Online</td>
+      <td class="govuk-table__cell">22/01/21</td>
+      <td class="govuk-table__cell"> <form class="form" action="/application-form" method="post">
+
+        <button class="govuk-button" data-module="govuk-button">Apply</button>
+
+      </form></td>
+      </tr>
+      <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Product Design</td>
+      <td class="govuk-table__cell">034642</td>
+      <td class="govuk-table__cell">6 months</td>
+      <td class="govuk-table__cell">Online</td>
+      <td class="govuk-table__cell">23/01/21</td>
+      <td class="govuk-table__cell"> <form class="form" action="/application-form" method="post">
+
+        <button class="govuk-button" data-module="govuk-button">Apply</button>
+
+      </form></td>
+      </tr>
+      <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Software Design</td>
+      <td class="govuk-table__cell">080049</td>
+      <td class="govuk-table__cell">4 months</td>
+      <td class="govuk-table__cell">Online</td>
+      <td class="govuk-table__cell">03/02/21</td>
+      <td class="govuk-table__cell"> <form class="form" action="/application-form" method="post">
+
+        <button class="govuk-button" data-module="govuk-button">Apply</button>
+
+      </form></td>
+      </tr>
+      <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Business Skills 3</td>
+      <td class="govuk-table__cell">190867</td>
+      <td class="govuk-table__cell">6 months</td>
+      <td class="govuk-table__cell">Online</td>
+      <td class="govuk-table__cell">10%</td>
+      <td class="govuk-table__cell"><form class="form" action="/application-form" method="post">
+
+        <button class="govuk-button" data-module="govuk-button">Apply</button>
+
+      </form></td>
+      </tr>
+      <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Business Skills 4</td>
+      <td class="govuk-table__cell">093200</td>
+      <td class="govuk-table__cell">6 months</td>
+      <td class="govuk-table__cell">Online</td>
+      <td class="govuk-table__cell">10%</td>
+      <td class="govuk-table__cell"><form class="form" action="/application-form" method="post">
+
+        <button class="govuk-button" data-module="govuk-button">Apply</button>
+
+      </form></td>
+      </tr>
+      <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Business Skills 5</td>
+      <td class="govuk-table__cell">093200</td>
+      <td class="govuk-table__cell">6 months</td>
+      <td class="govuk-table__cell">Online</td>
+      <td class="govuk-table__cell">10%</td>
+      <td class="govuk-table__cell"><form class="form" action="/application-form" method="post">
+
+        <button class="govuk-button" data-module="govuk-button">Apply</button>
+
+      </form></td>
+      </tr>
+      <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Business Skills 6</td>
+      <td class="govuk-table__cell">093200</td>
+      <td class="govuk-table__cell">6 months</td>
+      <td class="govuk-table__cell">Online</td>
+      <td class="govuk-table__cell">10%</td>
+      <td class="govuk-table__cell"><form class="form" action="/application-form" method="post">
+
+        <button class="govuk-button" data-module="govuk-button">Apply</button>
+
+      </form></td>
+      </tr>
+
+
+            </tbody>
+        </table>
+
+
+
+
+  </div>
+
+  <div class="govuk-grid-column-one-third">
+        <h2 class="govuk-heading-m">Useful links</h2>
+        <p class="govuk-body">This is a paragraph inside a one-third wide column</p>
+        <ul class="govuk-list">
+          <li>
+          <a href="/homepage" class="govuk-link--no-visited-state">Your account </a>
+          </li>
+        <li>
+          <a href="personal-details" class="govuk-link govuk-link--no-visited-state">Update your details</a>
+          </li>
+        </div>
+        </div>
+        </main>
+        </div>
+
+{% endblock %}

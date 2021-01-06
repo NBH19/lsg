@@ -1,0 +1,84 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Question page
+{% endblock %}
+
+{% block content %}
+<div class="govuk-width-container">
+
+<h1 class="govuk-heading-xl">My account</h1>
+
+  <main class="govuk-main-wrapper">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <p class="govuk-body">Your existing courses are listed in the table below:</p>
+  </div>
+
+      <div class="govuk-grid-column-one-third">
+        <h2 class="govuk-heading-m">My course applications</h2>
+        <p class="govuk-body">Course applications attached to your registration number:</p>
+        <ul class="govuk-list">
+          <li>
+          <a href="satellite-1.html" class="govuk-link--no-visited-state">Business Skills 2</a>
+          </li>
+        <li>
+          <a href="satellite-2.html" class="govuk-link govuk-link--no-visited-state">Learn to Code</a>
+          </li>
+        <li>
+        <a href="satellite-3.HTML" class="govuk-link govuk-link--no-visited-state">Architecture and Design</a>
+          </li>
+
+      </div>
+
+</div>
+
+    <div>
+            <table class="govuk-table">
+
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header app-custom-class">Course name</th>
+      <th scope="col" class="govuk-table__header app-custom-class">Course code</th>
+      <th scope="col" class="govuk-table__header app-custom-class">Length of course</th>
+      <th scope="col" class="govuk-table__header app-custom-class">Percentage completion</th>
+      <th scope="col" class="govuk-table__header app-custom-class">Location of teaching</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Accounting and Finance</td>
+      <td class="govuk-table__cell">042355 </td>
+      <td class="govuk-table__cell">12 months</td>
+      <td class="govuk-table__cell">40%</td>
+      <td class="govuk-table__cell">Online</td>
+    </tr>
+    <tr class="govuk-table__row">
+    <td class="govuk-table__cell">Business Skills 1</td>
+    <td class="govuk-table__cell">093200</td>
+    <td class="govuk-table__cell">6 months</td>
+    <td class="govuk-table__cell">10%</td>
+    <td class="govuk-table__cell">Online</td>
+    </tr>
+
+
+          </tbody>
+      </table>
+      </div>
+
+
+<div>
+<h2 class="govuk-heading-l">Browse all courses</h2>
+<p class="govuk-body"> Explore <a href="/courselist" class="govuk-link govuk-link--no-visited-state">all available courses.</a></p>
+
+</div>
+<div>
+<h2 class="govuk-heading-l">Let us know if you've changed your details</h2>
+<p class="govuk-body"> Update your <a href="/courselist" class="govuk-link govuk-link--no-visited-state">personal details</a> here</p>
+
+</div>
+  </main>
+</div>
+
+
+{% endblock %}
